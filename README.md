@@ -8,7 +8,7 @@ To run locally, use
 $ npx shadow-cljs watch frontend
 ```
 
-To see it live, go to (todo)
+To see it live, go to <https://hypirion.github.io/selene-calendar-example>
 
 ## License
 
