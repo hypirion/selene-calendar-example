@@ -1,0 +1,14 @@
+{
+  "name": "reagent-selene",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.28.10"
+  },
+  "dependencies": {
+    "@js-joda/core": "^3.2.0",
+    "@js-joda/timezone": "^2.21.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
