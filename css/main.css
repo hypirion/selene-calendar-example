@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+}
+
+#app {
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+
+.year-picker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.this-year {
+    font-size: 1.5em;
+    margin-bottom: -0.125em;
+}
+
+
+.zone-picker {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.months {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month {
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 8px
+}
+
+.month-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.month-table-wrapper {
+    border: 1px solid black;
+    background: #eee;
+}
+
+tr {
+    text-align: center;
+}
+
+.today {
+    background: #f9ffe3;
+}
+
+
+/* Button shenanigans */
+
+button.year-change {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background: none;
+    color: #0069ed;
+    font-family: sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button.year-change:hover,
+button.year-change:focus {
+    background: #eee;
+}
